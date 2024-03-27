@@ -19,7 +19,7 @@ const ContactListUnordered = ({contactList}) => {
           <ul>
             <li key={singleContact.id}>Name: {singleContact.name}</li>
             <li key={singleContact.id}>Phone Number: {singleContact.phone}</li>
-            <li key={singleContact.id}>Name: {singleContact.name}</li>
+            <li key={singleContact.id}>Email Address: {singleContact.email}</li>
           </ul>
           )
         })
