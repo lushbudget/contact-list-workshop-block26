@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 import ContactListUnordered from './contactList.jsx';
+import MoreInfoUnordered from './moreInfo.jsx';
 
 
 
@@ -19,13 +20,9 @@ function App() {
     getContact()
 
   }, []);
-  useEffect(() => {
-
-  })
 
 return (
     <>
-      <div>
         <h1>CONTACT LIST</h1>
         <table>
           <tr>
@@ -35,7 +32,6 @@ return (
           </tr>
         <ContactListUnordered contactList={contactList}/>
         </table>
-      </div>
     </>
   )
 }
