@@ -19,12 +19,22 @@ function App() {
     getContact()
 
   }, []);
+  useEffect(() => {
+
+  })
 
 return (
     <>
       <div>
         <h1>CONTACT LIST</h1>
+        <table>
+          <tr>
+            <th>Name</th>
+            <th>Phone Number</th>
+            <th>Email Address</th>
+          </tr>
         <ContactListUnordered contactList={contactList}/>
+        </table>
       </div>
     </>
   )

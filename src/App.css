@@ -1,0 +1,24 @@
+
+h1 {
+  color: rgb(77, 53, 57);
+  text-align: center;
+  border-top: 10px ridge rgb(163, 77, 91);
+  border-bottom: 1em double rgb(247, 175, 40);
+  border-radius: 40em;
+}
+
+table {
+  text-align: center;
+  margin: auto;
+}
+
+th {
+  color: rgb(77, 53, 57);
+}
+
+td {
+  padding: 10px;
+}
+tr {
+  border-color: antiquewhite;
+}
